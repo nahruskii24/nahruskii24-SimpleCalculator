@@ -126,6 +126,7 @@ namespace SimpleCalculator
         private void ClearClick(object sender, RoutedEventArgs e)
         {
             resultBox.Text = "0";
+            currentOp.Content = "";
             resultTotal = 0;
         }
     }
